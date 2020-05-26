@@ -1,0 +1,140 @@
+.jumbotron {
+	background: url("../images/banner.jpg");
+	background-size: cover;
+	background-position: 50%;
+	background-repeat: no-repeat;
+	stroke: black;
+	color: #F6E8EA;
+	padding: 10rem 2rem!important;
+}
+.mt-2 .my-2 {
+	margin-top: -3.5rem !important;
+}
+.jumbotron h1 {
+	font-size: 55px;
+	background-color: rgb(0, 0, 0, .6);
+	padding: 10px 0 10px 0;
+}
+.jumbotron h3 {
+	margin-top: -8px;
+	background-color: rgb(0, 0, 0, .6);
+	padding: 0 0 15px 0;
+}
+.jumbotron p a {
+	background-color: #EF626C;
+	border-color: #EF626C;
+}
+.btn-primary:hover {
+	background-color: #EF626C;
+	border-color: #EF626C;
+	box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+	transform: translateY(-0.25em);
+}
+.fa {
+	color: grey;
+}
+.fa:hover {
+	color: #EF626C;
+}
+.footer-list {
+	list-style: none;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+#list-heading {
+	text-decoration: underline;
+}
+.footer-list a {
+	color: #EF626C;
+}
+.footer-list a:hover {
+	color: #ffffff;
+}
+.container #footer {
+	background-color: grey;
+}
+.review_box {
+	outline: 1px solid grey;
+}
+@media only screen and (max-width: 750px) {
+	#footer {
+		text-align: center !important;
+	}
+	#footer input {
+		width: 300px;
+		margin-left: 100px;
+	}
+	.imageGrid {
+		margin-left: 100px;
+		margin-bottom: 5px;
+	}
+	.col-6 img {
+		width: 240px!important;
+		margin-left: 0px!important;
+	}
+	.image1 {
+		display: none;
+	}
+	.image2 {
+		display: block!important;
+	}
+}
+.imageGrid {
+	width: 375px;
+	height: 250px;
+}
+.lightbox {
+	/** Default lightbox to hidden */
+	display: none;
+	/** Position and style */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.8);
+}
+.lightbox img {
+	/** Pad the lightbox image */
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 2%;
+}
+.lightbox:target {
+	/** Remove default browser outline */
+	outline: none;
+	/** Unhide lightbox **/
+	display: block;
+}
+.menu_item {
+	height: 23px;
+	color: #22181C;
+	text-transform: uppercase;
+}
+.menu_price {
+	height: 23px;
+	color: #EF626C;
+}
+.menu_description {
+	font-size: 12px;
+	height: 23px;
+	color: grey;
+}
+.row table {
+	width: 100%;
+}
+.image2 {
+	display: none;
+}
+#info {
+	font-size: 20px;
+	color: #EF626C;
+}
+#success_message {
+	display: none;
+}
+.inputGroupContainer {
+	float: right;
+}
