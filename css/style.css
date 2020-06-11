@@ -133,3 +133,8 @@
 .inputGroupContainer {
 	float: right;
 }
+.staff_button {
+	color:#ffffff;
+	background-color: #EF626C;
+	border-radius: 10px;
+}
