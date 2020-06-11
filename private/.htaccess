@@ -4,6 +4,7 @@ AuthName "Staff Login"
 AuthUserFile .htpasswd
 ErrorDocument 500 /staff_portal.html
   Require valid-user
+  Options -Indexes
   <Directory /home>
     AllowOverride All
 </Directory>
