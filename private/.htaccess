@@ -1,4 +1,4 @@
-<files staff_portal.html>
+<files roster.html>
 AuthType Basic
 AuthName "Staff Login"
 AuthUserFile .htpasswd
