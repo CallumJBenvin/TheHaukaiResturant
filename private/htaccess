@@ -1,5 +1,8 @@
 <files staff_portal.html>
-AuthType Basic
-AuthName "Staff Login"
 AuthUserFile .htpasswd
+AuthName "Secure Area"
+AuthType Basic
+<Limit GET POST>
+require valid-user
+</Limit>
 <files>
