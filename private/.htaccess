@@ -2,7 +2,7 @@
 AuthType Basic
 AuthName "Staff Login"
 AuthUserFile .htpasswd
-ErrorDocument 500 ../index.html
+ErrorDocument 500 /index.html
 <Limit GET POST>
   Require valid-user
  </Limit>
