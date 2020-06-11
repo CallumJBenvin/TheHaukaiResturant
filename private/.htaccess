@@ -2,8 +2,9 @@
 AuthType Basic
 AuthName "Staff Login"
 AuthUserFile .htpasswd
-ErrorDocument 500 staff_portal.html
-<Limit GET POST>
+ErrorDocument 500 /staff_portal.html
   Require valid-user
- </Limit>
+  <Directory /home>
+    AllowOverride All
+</Directory>
 </files>
