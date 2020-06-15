@@ -1,6 +1,6 @@
- <Directory private/ >
+ <Directory >
  AuthType Basic
 AuthName "Restricted access"​
 AuthUserFile .htpasswd​
 Require valid-user​
-</Directory>
+</files>
