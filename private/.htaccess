@@ -1,0 +1,7 @@
+AuthUserFile /app/private/.htpasswd
+AuthType Basic
+AuthName "Restaurant Staff Login"
+
+<Files "staff_portal.html">
+  Require valid-user
+</Files>
