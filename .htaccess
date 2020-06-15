@@ -1,6 +1,4 @@
-<FilesMatch "private/staff_portal.html">
-AuthName "Staff Only"
-AuthType Basic
 AuthUserFile .htpasswd
-require valid-user
-</FilesMatch>
+AuthType Basic
+AuthName private/
+Require valid-user
