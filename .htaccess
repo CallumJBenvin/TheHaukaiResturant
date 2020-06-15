@@ -1,8 +1,8 @@
-AuthUserFile .htpasswd
+AuthUserFile /app/.htpasswd
 AuthType Basic
-AuthName "Restricted Access"
+AuthName "Restaurant Staff Login"
 Require valid-user
 
-<Files "staff_portal.html">
+<Files "/staff_portal.html">
   Require valid-user
 </Files>
