@@ -3,6 +3,6 @@ AuthType Basic
 AuthName "Restricted Access"
 Require valid-user
 
-<Files "/private/staff_portal.html">
+<Files "./private/staff_portal.html">
   Require valid-user
 </Files>
