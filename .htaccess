@@ -1,8 +1,8 @@
-AuthUserFile /app/.htpasswd
+AuthUserFile /.htpasswd
 AuthType Basic
 AuthName "Restricted Access"
 Require valid-user
 
-<Files "thehaukairestaurant-cbenvin.herokuapp.com/private/staff_portal.html">
+<Files "private/staff_portal.html">
   Require valid-user
 </Files>
