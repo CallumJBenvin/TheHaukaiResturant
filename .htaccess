@@ -1,4 +1,4 @@
-<Files "private/staff_portal.html">
+<Files "/private/staff_portal.html">
 AuthUserFile /app/.htpasswd
 AuthType Basic
 AuthName "Restaurant Staff Login"
