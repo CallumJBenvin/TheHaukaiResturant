@@ -5,11 +5,3 @@ AuthName "Restaurant Staff Login"
 <Files "staff_portal.html">
   Require valid-user
 </Files>
-
-<Files "roster.html">
-  Require valid-user
-</Files>
-
-<Files "contact_list.html">
-  Require valid-user
-</Files>
