@@ -1,6 +1,7 @@
-AuthUserFile /var/www/https://thehaukairestaurant-cbenvin.herokuapp.com/.htpasswd
+AuthUserFile /app/.htpasswd
 AuthType Basic
-AuthName "Staff Login"
+AuthName "Restricted Access"
+Require valid-user
 
 <Files "private/staff_portal.html">
   Require valid-user
