@@ -1,6 +1,4 @@
- <Directory >
- AuthType Basic
-AuthName "Restricted access"​
-AuthUserFile .htpasswd​
-Require valid-user​
-</files>
+AuthUserFile ../.htpasswd
+AuthType Basic
+AuthName "Restricted Access"
+Require valid-user
