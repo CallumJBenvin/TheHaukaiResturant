@@ -2,6 +2,6 @@ AuthUserFile .htpasswd
 AuthType Basic
 AuthName "Staff Login"
 
-<Files "private/staff_portal.html">
+<Files "staff_portal.html">
   Require valid-user
 </Files>
