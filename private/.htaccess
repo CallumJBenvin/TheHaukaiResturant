@@ -1,4 +1,4 @@
- <Directory /private/ >
+ <Directory private/ >
  AuthType Basic
 AuthName "Restricted access"​
 AuthUserFile "/private/.htpasswd"​
