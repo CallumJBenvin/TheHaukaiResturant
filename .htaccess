@@ -1,4 +1,4 @@
-AuthUserFile /app/private/.htpasswd
+AuthUserFile /app/.htpasswd
 AuthType Basic
 AuthName "Restaurant Staff Login"
 
