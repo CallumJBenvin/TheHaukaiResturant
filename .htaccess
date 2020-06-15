@@ -1,4 +1,4 @@
 AuthUserFile .htpasswd
 AuthType Basic
-AuthName private/
+AuthName "Staff only"
 Require valid-user
